@@ -16,10 +16,10 @@ export function ContactSection() {
   };
 
   const socials = [
-    { icon: <Github className="w-5 h-5" />, label: 'GitHub', url: 'https://github.com' },
-    { icon: <Linkedin className="w-5 h-5" />, label: 'LinkedIn', url: 'https://linkedin.com' },
+    { icon: <Github className="w-5 h-5" />, label: 'GitHub', url: 'https://github.com/Sankar2316046' },
+    { icon: <Linkedin className="w-5 h-5" />, label: 'LinkedIn', url: 'https://www.linkedin.com/in/gomathysankar-r/' },
     { icon: <Twitter className="w-5 h-5" />, label: 'Twitter', url: 'https://twitter.com' },
-    { icon: <Mail className="w-5 h-5" />, label: 'Email', url: 'mailto:alex@example.com' },
+    { icon: <Mail className="w-5 h-5" />, label: 'Email', url: 'mailto:gomathysankar2005@gmail.com' },
   ];
 
   return (

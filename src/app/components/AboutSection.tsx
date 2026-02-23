@@ -7,9 +7,9 @@ export function AboutSection() {
   const isInView = useInView(ref, { once: true, margin: '-100px' });
 
   const skills = [
-    'Next.js', 'React', 'Node.js', 'TypeScript', 'MongoDB', 
-    'Supabase', 'Django', 'Tailwind CSS', 'PostgreSQL', 'Stripe',
-    'GraphQL', 'Docker', 'AWS', 'Redis'
+    'Html','Css','Javascript','React','Next.js','Node.js', 'TypeScript', 'MongoDB', 'Firebase',
+    'Supabase', 'Django', 'Tailwind CSS', 'PostgreSQL', 
+     'Docker'
   ];
 
   return (
@@ -72,9 +72,11 @@ export function AboutSection() {
                   boxShadow: '0 0 50px rgba(0, 245, 255, 0.3)',
                 }}
               >
-                <div className="w-full h-full bg-gradient-to-br from-[#7F5AF0]/20 to-[#00F5FF]/20 flex items-center justify-center text-white/30 text-6xl">
-                  AJ
-                </div>
+                <img
+                  src="/profile.png"
+                  alt="Profile"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </motion.div>
@@ -90,11 +92,7 @@ export function AboutSection() {
               with a strong focus on building <span className="text-[#7F5AF0]">scalable, user-friendly web applications</span>. 
               I love turning complex problems into simple, beautiful, and intuitive solutions.
             </p>
-            <p className="text-white/80 text-lg leading-relaxed mb-8">
-              With expertise in modern frameworks and cloud technologies, I specialize in creating 
-              performant applications that deliver exceptional user experiences. Always learning, 
-              always building.
-            </p>
+           
 
             {/* Skills */}
             <div>

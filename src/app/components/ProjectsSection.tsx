@@ -9,28 +9,28 @@ export function ProjectsSection() {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with real-time inventory, payment integration, and admin dashboard. Built for scalability and performance.',
-      tech: ['Next.js', 'Stripe', 'MongoDB', 'Tailwind CSS'],
-      image: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-      liveUrl: '#',
-      githubUrl: '#',
+      title: 'Cognify',
+      description: 'A comprehensive full-stack educational platform that dynamically generates customized test questions and provides an interactive environment for students to answer and receive instant feedback.',
+      tech: ['Next.js', 'Supabase', 'shadcn/ui', 'python/ai'],
+      image: '/cognify.jpg',
+      liveUrl: 'cognify-teacher.vercel.app',
+      githubUrl: 'https://github.com/Sankar2316046/cognify-student',
     },
     {
-      title: 'Task Management SaaS',
-      description: 'Collaborative project management tool with real-time updates, team chat, and analytics. Features drag-and-drop kanban boards.',
-      tech: ['React', 'Supabase', 'TypeScript', 'shadcn/ui'],
-      image: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-      liveUrl: '#',
-      githubUrl: '#',
+      title: 'Ai summariser',
+      description: 'An AI-powered text summarization and translation tool that condenses lengthy and complex documents into concise summaries and translates content across multiple languages.',
+      tech: ['React', 'Supabase', 'gemini/ai', 'shadcn/ui'],
+      image: '/ai.jpeg',
+      liveUrl: 'https://ai-summarizer-rho-two.vercel.app/',
+      githubUrl: 'https://github.com/Sankar2316046/ai-summarizer',
     },
     {
-      title: 'AI Content Generator',
-      description: 'AI-powered content creation platform leveraging GPT-4. Generates blog posts, social media content, and marketing copy.',
-      tech: ['Next.js', 'OpenAI API', 'PostgreSQL', 'Vercel'],
-      image: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-      liveUrl: '#',
-      githubUrl: '#',
+      title: 'Stock management system',
+      description: 'A comprehensive full-stack educational platform that dynamically generates customized test questions and provides an interactive environment for students to answer and receive instant feedback.',
+      tech: ['Next.js', 'Supabase', 'shadcn/ui', 'tanstack'],
+      image: '/stock.png',
+      liveUrl: 'https://stock-management-system.vercel.app/',
+      githubUrl: 'https://github.com/Sankar2316046/stock-management-system',
     },
   ];
 
@@ -99,12 +99,8 @@ export function ProjectsSection() {
               />
 
               {/* Project Image/Mockup */}
-              <div
-                className="h-48 flex items-center justify-center text-white/30 text-2xl relative overflow-hidden"
-                style={{ background: project.image }}
-              >
-                <div className="absolute inset-0 bg-black/20" />
-                <span className="relative z-10">Project Preview</span>
+              <div className="h-48 relative overflow-hidden">
+                <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
               </div>
 
               {/* Content */}

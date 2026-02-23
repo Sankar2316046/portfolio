@@ -22,7 +22,7 @@ export function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            © {currentYear} Alex Johnson. Built with Next.js & 
+            © {currentYear} Gomathysankar. Built with Next.js  
             <Heart className="w-4 h-4 text-[#00F5FF] inline-block fill-current" />
           </motion.p>
 
@@ -35,8 +35,8 @@ export function Footer() {
             transition={{ duration: 0.6, delay: 0.1 }}
           >
             {[
-              { icon: <Github className="w-4 h-4" />, url: 'https://github.com', label: 'GitHub' },
-              { icon: <Linkedin className="w-4 h-4" />, url: 'https://linkedin.com', label: 'LinkedIn' },
+              { icon: <Github className="w-4 h-4" />, url: 'https://github.com/Sankar2316046', label: 'GitHub' },
+              { icon: <Linkedin className="w-4 h-4" />, url: 'https://www.linkedin.com/in/gomathysankar-r/', label: 'LinkedIn' },
               { icon: <Twitter className="w-4 h-4" />, url: 'https://twitter.com', label: 'Twitter' },
             ].map((social) => (
               <motion.a

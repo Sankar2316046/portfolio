@@ -21,14 +21,7 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <motion.p
-            className="text-[#00F5FF] mb-4 tracking-wider"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.2 }}
-          >
-            Welcome to my portfolio
-          </motion.p>
+         
           
           <motion.h1
             className="text-5xl md:text-7xl lg:text-8xl mb-6"
@@ -42,7 +35,7 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            Hi, I'm <span className="block mt-2">Alex Johnson</span>
+            Hi, I'm <span className="block mt-2">GOMATHYSANKAR R</span>
           </motion.h1>
           
           <motion.h2
@@ -60,7 +53,7 @@ export function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7, duration: 0.8 }}
           >
-            CSE 3rd year student passionate about creating innovative solutions.
+            I'M a CSE student passionate about creating innovative solutions.
             Specializing in modern web technologies and cloud-native applications.
           </motion.p>
           

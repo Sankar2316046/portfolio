@@ -46,7 +46,7 @@ export function Navigation() {
           }}
           whileHover={{ scale: 1.05 }}
         >
-          AJ
+          GS
         </motion.a>
 
         {/* Desktop Navigation */}

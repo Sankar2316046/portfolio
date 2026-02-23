@@ -21,23 +21,19 @@ export function TechStackSection() {
     {
       icon: <Database className="w-8 h-8" />,
       name: 'Database',
-      description: 'MongoDB, PostgreSQL, Supabase, Redis',
+      description: 'MongoDB, PostgreSQL, Supabase, Firebase',
     },
     {
       icon: <Globe className="w-8 h-8" />,
       name: 'Cloud & DevOps',
-      description: 'AWS, Docker, Vercel, GitHub Actions',
+      description: 'Docker, Vercel, GitHub Actions',
     },
     {
       icon: <Code2 className="w-8 h-8" />,
       name: 'Tools',
       description: 'Git, VS Code, Postman, Figma',
     },
-    {
-      icon: <Smartphone className="w-8 h-8" />,
-      name: 'Mobile',
-      description: 'React Native, Progressive Web Apps',
-    },
+   
   ];
 
   return (
